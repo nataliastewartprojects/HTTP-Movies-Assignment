@@ -102,3 +102,7 @@ body {
   margin-left: 30%;
   background-color: lightskyblue;
 }
+
+.delete-btn {
+  margin-left: 5%;
+}
