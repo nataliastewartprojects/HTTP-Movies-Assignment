@@ -56,8 +56,8 @@ export default function UpdateMovie(props) {
   };
 
   return (
-    <div>
-      <form onSubmit={handleSubmit}>
+    <div className="wrap-update">
+      <form onSubmit={handleSubmit} className="update-form">
         <label htmlFor="title" className="label">
           Title:
         </label>
@@ -89,7 +89,7 @@ export default function UpdateMovie(props) {
           Starts:
         </label>
         <input type="text" name="Starts" />
-        <button className="add-btn" type="submit">
+        <button className="update-btn" type="submit">
           Submit
         </button>
       </form>
